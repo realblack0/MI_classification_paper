@@ -12,4 +12,4 @@
 | Dataset | Subjects | Classes | Channels | Sampling rate | #Training per subject | #Test per subject |
 | - | :-:| :-: | :-: | :-: | :-: | :-: | 
 | BCIC_IV_2a| 9 | 4 (left hand, right hand, both feet, tongue) | 60EEG 3EOG | 250Hz | 288 | 288 |
-| BCIC_IV_2b| 9 | 2 (left hand, right hand) | 3EEG 3EOG | 250Hz | 300 (?) | 320 (?) |
+| BCIC_IV_2b| 9 | 2 (left hand, right hand) | 3EEG 3EOG | 250Hz | 400 (?) | 320 (?) |
