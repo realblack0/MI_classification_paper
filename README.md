@@ -9,14 +9,28 @@
 ## Papers
 | Title | Author | Date | Publication | Link | Accuracy | Dataset | Model |
 | - | - | - | - | :-:| :-: | :-: | :-: |
-| EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces | Vernon J Lawhern, et al. | Jul-2018 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/aace8c/pdf) [Code](https://github.com/vlawhern/arl-eegmodels)| 68±a% | BCIC_IV_2a | CNN |
-| Interpretable and lightweight convolutional neural network for EEG decoding: Application to movement execution and imagination | Davide Borra, et al. | May-2020 | Neural Networks | [Paper](https://www.sciencedirect.com/science/article/pii/S0893608020302021) Code| 91.2%     72.8% | HGD     BCIC_IV_2a | CNN |
 | Motor Imagery EEG Decoding Method Based on a Discriminative Feature Learning Strategy | Lie Yang, et al. | Jan-2021 | IEEE Transactions on Neural Systems and Rehabilitation Engineering | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9327487) Code| 81.85% (10 fold CV)     85.46% | BCIC_IV_2a  BCIC_IV_2b | CNN |
-HS-CNN: a CNN with hybrid convolution scale for EEG motor imagery classification | Guanhai Dai, et al. | Jan-2020 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab405f/pdf) Code| 91.57%     87.6% | BCIC_IV_2a (legt hand, right hand)  BCIC_IV_2b | CNN |
-Motor imagery recognition with automatic EEG channel selection and deep learning | Han Zhang, et al. | Feb-2021 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab405f/pdf) Code| 87.2% | Private | CNN SE|
+| Interpretable and lightweight convolutional neural network for EEG decoding: Application to movement execution and imagination | Davide Borra, et al. | May-2020 | Neural Networks | [Paper](https://www.sciencedirect.com/science/article/pii/S0893608020302021) Code| 91.2%     72.8% | HGD     BCIC_IV_2a | CNN |
+| EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces | Vernon J Lawhern, et al. | Jul-2018 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/aace8c/pdf) [Code](https://github.com/vlawhern/arl-eegmodels)| 68±a% | BCIC_IV_2a | CNN |
+| | | | | | | | |
+| Motor imagery recognition with automatic EEG channel selection and deep learning | Han Zhang, et al. | Feb-2021 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab405f/pdf) Code| 87.2% | Private | CNN SE|
+| HS-CNN: a CNN with hybrid convolution scale for EEG motor imagery classification | Guanhai Dai, et al. | Jan-2020 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab405f/pdf) Code| 91.57%     87.6% | BCIC_IV_2a (left hand, right hand)  BCIC_IV_2b | CNN |
+| Papers to read | | | | | | | |
+| A Multi-Scale Fusion Convolutional Neural Network Based on Attention Mechanism for the Visualization Analysis of EEG Signals Decoding | Donglin Li, et al. | Dec-2020 | IEEE Transactions on Neural Systems and Rehabilitation Engineering | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9256357) Code | 79.90% | BCIC_IV_2a | CNN |
+| Learning EEG topographical representation for classification via convolutional neural network | Meiyan Xu, et al. | Apr-2020 | Pattern Recognition | [Paper](https://www.sciencedirect.com/science/article/pii/S003132032030193X) Code | 84.57% | BCIC_IV_2a | CNN |
+| A Novel MI-EEG Imaging With the Location Information of Electrodes | MING-AI LI, et al. | Dec-2019 | IEEE Access | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8944067) Code | 88.87% | BCIC_IV_2a | CNN |
+| A Multi-Branch 3D Convolutional Neural Network for EEG-Based Motor Imagery Classification | Xinqiao Zhao, et al. | Aug-2019 | IEEE Transactions on Neural Systems and Rehabilitation Engineering | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8820089) Code| 64.4(Kappa) | BCIC_IV_2a | 3D CNN |
+| Deep Learning for EEG motor imagery classification based on multi-layer CNNs feature fusion | Syed Umar Amin, et al. | Jul-2019 | Future Generation Computer Systems | [Paper](https://www.sciencedirect.com/science/article/pii/S0167739X19306077) Code | 75.7% 95.4% | BCIC_IV_2a HGD | AE CNN|
+| Multilevel Weighted Feature Fusion Using Convolutional Neural Networks for EEG Motor Imagery Classification | Syed Umar Amin, et al. | Jan-2019 | IEEE Access | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8629079) Code | 74.5% | BCIC_IV_2a | CNN |
+| Wavelet Transform Time-Frequency Image and Convolutional Network-Based Motor Imagery EEG Classification | Baoguo Xu, et al. | Dec-2018 | IEEE Access | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8585027) Code | 92.75% 85.59% | BCIC_III_2 BCIC_IV_2a | CNN |
+| Learning Temporal Information for Brain-Computer Interface Using Convolutional Neural Networks | Siavash Sakhavi, et al. | Nov-2018 | IEEE Transactions on Neural Networks and Learning Systems | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8310961) Code | 74.46% (10 fold CV) | BCIC_IV_2a | CNN |
+| Classification of multiple motor imagery using deep convolutional neural networks and spatial filters | Brenda E. Olibas-Padilla, et al. | Nov-2018 | Applied Soft Computing Journal | [Paper](https://www.sciencedirect.com/science/article/pii/S156849461830663X) Code | 78.41% | BCIC_IV_2a | CNN |
+| Exploring spatial-frequency-sequential relationships for motor imagery classification with recurrent neural network | Tian-jian Luo, et al. | Sep-2018 | BMC Bioinformatics | [Paper](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-018-2365-1.pdf) Code | 73.56% 82.75% | BCIC_IV_2a BCIC_IV_2b | RNN |
+| Deep Learning With Convolutional Neural Networks for EEG Decoding and Visualization | Robin Tibor Schirrmeister, et al. | Aug-2017 | Human Brain Mapping | [Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.23730) [Code](https://gin.g-node.org/robintibor/high-gamma-dataset) | 73.7% 93.9% 89.9(Kappa) 72.2% | BCIC_IV_2a HGD BCIC_IV_2b MID | CNN |
 
-## Datasets
+## Public Datasets
 | Dataset | Subjects | Classes | Channels | Sampling rate | #Training per subject | #Test per subject |
 | - | :-:| :-: | :-: | :-: | :-: | :-: | 
 | BCIC_IV_2a| 9 | 4 (left hand, right hand, both feet, tongue) | 60EEG 3EOG | 250Hz | 288 | 288 |
 | BCIC_IV_2b| 9 | 2 (left hand, right hand) | 3EEG 3EOG | 250Hz | 400±a | 320±a |
+| HGD(High-Gamma Dataset) | 14 | 4 | 128 ME-EEG | 250Hz | ~880 | |
