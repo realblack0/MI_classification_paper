@@ -9,7 +9,6 @@
 ## Papers
 | Title | Author | Date | Publication | Link | Accuracy | Dataset | Model |
 | - | - | - | - | :-:| :-: | :-: | :-: |
-| A Multibranch of Convolutional Neural Network Models for Electroencephalogram-Based Motor Imagery Classification | Ghadir Ali Altuwaijri and Ghulam Muhammad | Jan-2022 | Biosensors | [Paper](https://www.mdpi.com/2079-6374/12/1/22) Code| 82.01%     95.3% | BCIC_IV_2a  HGD | CNN |
 | Motor Imagery EEG Decoding Method Based on a Discriminative Feature Learning Strategy | Lie Yang, et al. | Jan-2021 | IEEE Transactions on Neural Systems and Rehabilitation Engineering | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9327487) Code| 81.85% (10 fold CV)     85.46% | BCIC_IV_2a  BCIC_IV_2b | CNN |
 | Interpretable and lightweight convolutional neural network for EEG decoding: Application to movement execution and imagination | Davide Borra, et al. | May-2020 | Neural Networks | [Paper](https://www.sciencedirect.com/science/article/pii/S0893608020302021) Code| 91.2%     72.8% | HGD     BCIC_IV_2a | CNN |
 | Classification of Motor Imagery Task by Using Novel Ensemble Pruning Approach | Muhammad Ammar Ali, et al. | Jan-2020 | IEEE Tansactions of Fuzzy Systems | [Paper](https://ieeexplore.ieee.org/iel7/91/4358784/08648160.pdf) Code | 0.7784(AUC) | BCIC_II_III | SVM |
@@ -22,6 +21,7 @@
 ## Failed to reproduce 
 | Title | Author | Date | Publication | Link | Accuracy | Dataset | Model |
 | - | - | - | - | :-:| :-: | :-: | :-: |
+| A Multibranch of Convolutional Neural Network Models for Electroencephalogram-Based Motor Imagery Classification | Ghadir Ali Altuwaijri and Ghulam Muhammad | Jan-2022 | Biosensors | [Paper](https://www.mdpi.com/2079-6374/12/1/22) Code| 82.01%     95.3% | BCIC_IV_2a  HGD | CNN |
 | Motor imagery recognition with automatic EEG channel selection and deep learning | Han Zhang, et al. | Feb-2021 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab405f/pdf) Code| 87.2% | Private | CNN SE|
 | A Multi-Scale Fusion Convolutional Neural Network Based on Attention Mechanism for the Visualization Analysis of EEG Signals Decoding | Donglin Li, et al. | Dec-2020 | IEEE Transactions on Neural Systems and Rehabilitation Engineering | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9256357) Code | 79.90% | BCIC_IV_2a | CNN |
 | HS-CNN: a CNN with hybrid convolution scale for EEG motor imagery classification | Guanhai Dai, et al. | Jan-2020 | Journal of Neural Enginnering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab405f/pdf) Code| 91.57%     87.6% | BCIC_IV_2a (left hand, right hand)  BCIC_IV_2b | CNN |
