@@ -31,6 +31,7 @@
 ## Papers to read 
 | Title | Author | Date | Publication | Link | Accuracy | Dataset | Model |
 | - | - | - | - | :-:| :-: | :-: | :-: |
+| SincNet-Based Hybrid Neural Network for Motor Imagery EEG Decoding | Chang Liu, et al. | March-2022 | IEEE Transactions on Neural Systems and Rehabilitation Engineering | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9726162) Code | 74.26 83.49 | BCIC_IV_2a BCIC_IV_2b | CNN |
 | Riemannian embedding banks for common spatial patterns with EEG-based SPD neural networks | Yoon-Je Suh and Byung Hyung Kim | 2021 | AAAI | [Paper](https://www.aaai.org/AAAI21Papers/AAAI-4766.SuhY.pdf) Code | 52.4(mAP) | BCIC_IV_2a | SPDNet |
 | Learning EEG topographical representation for classification via convolutional neural network | Meiyan Xu, et al. | Apr-2020 | Pattern Recognition | [Paper](https://www.sciencedirect.com/science/article/pii/S003132032030193X) Code | 84.57% | BCIC_IV_2a | CNN |
 | A Novel MI-EEG Imaging With the Location Information of Electrodes | MING-AI LI, et al. | Dec-2019 | IEEE Access | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8944067) Code | 88.87% | BCIC_IV_2a | CNN |
