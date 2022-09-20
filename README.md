@@ -9,6 +9,7 @@
 ## Papers
 | Title | Author | Date | Publication | Link | Accuracy | Dataset | Model |
 | - | - | - | - | :-:| :-: | :-: | :-: |
+| Single-Source to Single-Target Cross-Subject Motor Imagery Classification Based on Multisubdomain Adaptation Network | Yi Chen, et al. | Jul-2022 | IEEE Transactions on Neural Systems and Rehabilitation Engineering | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832019) Code | 82.61%(STS) | BCIC_III_IVa | Domain_adaptation CNN |
 | Golden subject is everyone: A subject transfer neural network for motor imagery-based brain computer interfaces | Biao Sun, et al. | Jul-2022 | Neural Networks | [Paper](https://www.sciencedirect.com/science/article/pii/S0893608022001034) Code | 80.7% (10 CV) | BCIC_IV_2b | Style_transfer |
 | Improving the performance of multisubject motor imagery-based BCIs using twin cascaded softmax CNNs | Jing Luo, et al. | Mar-2021 | Journal of Neural Engineering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/abe357/pdf) Code | 78.88% 87.20% | BCIC_IV_2a (left, right hand) BCIC_IV_2b | Plug-and-play Twin-CNN |
 | A novel motor imagery EEG decoding method based on feature separation | Lie Yang, et al. | Mar-2021 | Journal of Neural Engineering | [Paper](https://iopscience.iop.org/article/10.1088/1741-2552/abe39b/pdf) Code | 83.97% (10 fold CV)  86.91% (10 fold CV) | BCIC_IV_2a BCIC_IV_2b | CNN |
